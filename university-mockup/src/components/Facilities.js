@@ -23,11 +23,11 @@ function Facilities() {
         </div>
         <div className="f-imgs">
           <div>
-            <img src="/images/Facilities and Resources/13305412005_661da205f8_h.jpg" alt="lab" />
+            <img src="/Images/Facilities/13305412005_661da205f8_h.jpg" alt="lab" />
             <p><span className="f-color"><IoMdArrowDropright /></span>CORE LABS AND MAJOR FACILITIES</p>
           </div>
           <div>
-            <img src="/images/Facilities and Resources/28232125988_386612a75e_k.jpg" alt="housing" />
+            <img src="/Images/Facilities/28232125988_386612a75e_k.jpg" alt="housing" />
             <p><span className="f-color"><IoMdArrowDropright /></span>HOUSING AND FACILITIES</p>
           </div>
         </div>

@@ -1,6 +1,6 @@
 .facilities {
     max-width: 1350px;
-    background-image: url(/public/Images/Facilities\ and\ Resources/BG.jpg);
+    background-image: url(/public/Images/Facilities/BG.jpg);
     height: 450px;
 }
 
@@ -73,7 +73,7 @@ div>img {
 @media (min-width: 360px) and (max-width:1055px) {
     .facilities {
         max-width: 1055px;
-        background-image: url(/public/Images/Facilities\ and\ Resources/BG.jpg);
+        background-image: url(/public/Images/Facilities/BG.jpg);
         height: auto;
     }
 
@@ -85,6 +85,7 @@ div>img {
     .f-text {
         width: 100%;
     }
+
     .f-flex {
         display: flex;
         flex-wrap: wrap;
@@ -92,11 +93,13 @@ div>img {
         align-items: center;
         padding: 0px 20px;
     }
+
     .f-imgs {
-        margin:30px 10px;
+        margin: 30px 10px;
         flex-wrap: wrap;
         width: 100%;
     }
+
     .f-imgs>div {
         width: 100%;
         margin-bottom: 20px;
