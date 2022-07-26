@@ -1,0 +1,52 @@
+@font-face {
+    font-family: RotisSansSerifStd;
+    src: url(../Fonts/RotisSansSerifStd.otf);
+}
+
+@font-face {
+    font-family: RotisSansSerifStd-Bold;
+    src: url(../Fonts/RotisSansSerifStd-Bold.otf);
+}
+
+@font-face {
+    font-family: RotisSansSerifStd-ExtraBold;
+    src: url(../Fonts/RotisSansSerifStd-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: RotisSansSerifStd-Italic;
+    src: url(../Fonts/RotisSansSerifStd-Italic.otf);
+}
+
+@font-face {
+    font-family: RotisSansSerifStd-Light;
+    src: url(../Fonts/RotisSansSerifStd-Light.otf);
+}
+
+@font-face {
+    font-family: RotisSansSerifStd-Lightlt;
+    src: url(../Fonts/RotisSansSerifStd-LightIt.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.homepage {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.homepage {
+    width: 100%;
+}

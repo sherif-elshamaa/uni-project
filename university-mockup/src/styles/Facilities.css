@@ -1,0 +1,104 @@
+.facilities {
+    max-width: 1350px;
+    background-image: url(/public/Images/Facilities\ and\ Resources/BG.jpg);
+    height: 450px;
+}
+
+.facilities>.bar {
+    width: 340px;
+    height: 1px;
+    border: 1px solid #f1b61a;
+    background-color: #f1b61a;
+    position: absolute;
+}
+
+.f-header {
+    color: white;
+    padding: 30px 0px 0px 70px;
+    font-size: 50px;
+    font-family: RotisSansSerifStd-Bold;
+}
+
+.f-text {
+    color: white;
+    width: 50%;
+    font-family: RotisSansSerifStd;
+    font-size: 20px;
+}
+
+.f-text>.btn {
+    background-color: #f1b61a;
+    margin-top: 20px;
+    padding: 0px 20px;
+    height: 42px;
+    color: white;
+    font-family: RotisSansSerifStd-Bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.f-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.f-imgs {
+    display: flex;
+    width: 50%;
+}
+
+.f-imgs>div {
+    width: 50%;
+    padding: 0px 20px;
+    color: white;
+    font-family: RotisSansSerifStd-Bold;
+    font-size: 19px;
+
+}
+
+.f-color {
+    color: #f1b61a;
+    margin-bottom: 10px
+}
+
+div>img {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width: 360px) and (max-width:1055px) {
+    .facilities {
+        max-width: 1055px;
+        background-image: url(/public/Images/Facilities\ and\ Resources/BG.jpg);
+        height: auto;
+    }
+
+    .f-header {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .f-text {
+        width: 100%;
+    }
+    .f-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    .f-imgs {
+        margin:30px 10px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .f-imgs>div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

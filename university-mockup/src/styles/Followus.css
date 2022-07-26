@@ -1,0 +1,28 @@
+.followus {
+    background-color: #1d9798;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.followus>a {
+    color: white;
+}
+
+.social {
+    font-family: RotisSansSerifStd;
+    color: white;
+    display: flex;
+    gap: 5px;
+    font-size: 12px
+}
+
+
+.language {
+    height: 100%;
+    background-color: #4aacad;
+    padding: 3px 10px;
+    text-decoration: none;
+
+}

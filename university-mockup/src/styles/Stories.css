@@ -1,0 +1,120 @@
+.stories {
+    max-width: 1350px;
+    background-image: url(/public/Images/Bio/Bg.jpg);
+    height: 422px;
+}
+.stories>.bar{
+    width: 220px;
+    height: 1px;
+    border: 1px solid #f1b61a;
+    background-color: #f1b61a;
+    position: absolute;
+}
+
+.s-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px 20px 70px;
+    color: #fff;
+}
+
+.s-btns>.btn {
+    background-color: #f1b61a;
+    padding: 0px 10px;
+    margin-left: 5px;
+    height: 42px;
+    color: white;
+    font-family: RotisSansSerifStd-Bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.s-head>p:first-child {
+    font-family: RotisSansSerifStd-Light;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.s-head>p:last-child {
+    font-family: RotisSansSerifStd-bold;
+    font-size: 45px;
+}
+
+.s-cards {
+    display: flex;
+    padding: 0px 70px 0px 70px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.s-card {
+    width: 35%;
+}
+
+.story {
+    background-color: #50abac;
+    padding: 25px;
+    height: 132px;
+    color: #fff;
+    font-family: RotisSansSerifStd;
+    font-size: 22px;
+}
+
+.arrow {
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-top: 15px solid #50abac;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: relative;
+    margin-left: 25px;
+}
+
+.s-img {
+    margin: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.s-img>div>p {
+    color: #fff;
+    font-family: RotisSansSerifStd;
+}
+
+.s-img>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media (min-width: 360px) and (max-width:1200px) {
+    .stories {
+        max-width: 1200px;
+        height: auto;
+    }
+    .s-header {
+        padding: 20px;
+    }
+    .s-head>p:first-child {
+        font-size: 20px;
+    }
+    
+    .s-head>p:last-child {
+        font-size: 35px;
+    }
+    
+    .s-cards {
+        flex-wrap: wrap;
+        padding: 20px;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .s-card {
+        width: 100%;
+    }
+}
